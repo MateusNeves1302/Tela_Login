@@ -1,0 +1,78 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */ 
+
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 300 & display = swap');
+
+ body{
+    font-size: 12px;
+    font-family: sans-serif;
+    background: linear-gradient(45deg, #FF00FF, #FF1493);
+ }
+ 
+ h1{
+     text-decoration: underline overline #CD2990 ;
+     margin-bottom: 35px;
+     font-size: 30px;
+     letter-spacing: 1px;
+     text-shadow:  1px 1px 2px black,
+     #CCC 1px 0 12px;
+    
+     
+ }
+
+ div{
+     background-color: rgb(0, 0, 0, 0.5); 
+     position:absolute;
+     padding: 40px;
+     border-radius: 1em;
+     border: white 1px solid;
+     color: white;
+     text-align: center;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+
+
+label {
+    font-size: 15px;
+    margin-right: 100%;
+    align-items: center;
+    font-variant: small-caps;
+    font-weight: 700;
+    
+}
+
+ input {
+     padding: 12px;
+     border: none;
+     outline: none;
+     font-size: 15px;
+     margin-top: 10px;
+     width: 90%;
+ }
+
+ button{
+     padding: 15px;
+     background-color: rgb(0, 0, 0, 0.1); 
+     color: white;
+     width: 100%;
+     margin-top: 15px;
+     transition: 0.5s ;
+     font-family:'Montserrat', sans-serif;
+     font-size: 15px;
+     border-radius: 8px;
+     border: white 1px solid;
+     font-weight: 700;
+
+ }
+
+ button:hover{
+     background-color: #CD2990;
+     color: black;
+     cursor: pointer;
+ }
